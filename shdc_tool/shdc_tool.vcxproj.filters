@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{e75fe9bb-6eca-4254-ba50-206ac19730c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlslcrosscompiler">
+      <UniqueIdentifier>{b30a9bc5-eab4-45ad-8426-eb850e7e3e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlslcrosscompiler\cbstring">
+      <UniqueIdentifier>{41adcb1c-a3a6-4a85-97e8-c8f0e8c35798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hlslcrosscompiler\internal_includes">
+      <UniqueIdentifier>{c0436599-df73-4f49-9626-4873a067dbc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_file.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_file_entry.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="precompiles.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="reader_operators.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="all.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="filesystem.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="precompiles.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_file.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="reader.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="shdc_tool.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\decode.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\decodeDX9.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\reflect.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\toGLSL.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\toGLSLDeclaration.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\toGLSLInstruction.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\toGLSLOperand.c">
+      <Filter>hlslcrosscompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\cbstring\bsafe.c">
+      <Filter>hlslcrosscompiler\cbstring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\cbstring\bstraux.c">
+      <Filter>hlslcrosscompiler\cbstring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\cbstring\bstrlib.c">
+      <Filter>hlslcrosscompiler\cbstring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hlslcrosscompiler\src\internal_includes\hlslcc_malloc.c">
+      <Filter>hlslcrosscompiler\internal_includes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

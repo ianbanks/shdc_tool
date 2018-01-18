@@ -1,0 +1,6 @@
+A copy of the HLSL Cross Compiler from:
+
+https://github.com/James-Jones/HLSLCrossCompiler
+
+Is required to use the HLSL to GLSL conversion.
+
